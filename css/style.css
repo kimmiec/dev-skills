@@ -1,0 +1,65 @@
+body {
+    background-color:lemonchiffon;
+    min-width: 50vh;
+}
+
+.tiny-box {
+    background-color:rgb(146, 230, 202);
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid lightseagreen;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 50%;
+}
+
+#li-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* takes away the bullet points */
+li {
+    list-style-type: none;
+    /* margin: 15px 0px 15px 130px; */
+    color:rgb(155, 104, 175);
+    
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px 30px 0px;
+    font-size: 20px;
+    text-align: center;
+    background-color:lightskyblue;
+    border: 3px solid rgb(98, 160, 211);
+    color:rgb(255, 255, 255);
+}
+
+#input-skill{
+    border: 3px solid rgb(233, 147, 180);
+    margin: 10px 0px 0px 0px;
+    width: 260px; 
+}
+
+#add-skill{
+    border: 3px solid rgb(223, 147, 180);
+    background-color: mistyrose;
+    color:rgb(228, 179, 57);
+    width: 110px;
+}
+
+
+.row {
+    margin: 250px 0px 0px 0px;
+}
